@@ -166,6 +166,7 @@ exploration include:
     - OWNER_DEPARTMENT,
     - and SR_TYPE. 
 
+
 2. [US Census Bureau Data](https://www.census.gov/):
 From this dataset (American Community Survey 2018 5-Year Estimates),
 I was able to get income level and population size for census tracts in Chicago.
