@@ -48,6 +48,6 @@ This dataset from Chicago Data Portal includes the final City operating budget a
 
 ## *Comparing the Number of 311 Requests in 2018 and 2019*
 
-![request_count](../img/request_number_viz.png)
+![request_count](images/repeated_choropleth.png)
  
 
