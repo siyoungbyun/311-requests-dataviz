@@ -52,9 +52,42 @@ One simple way of visualizing the trend of 311 requests *before* and *after* the
 the new 311 app would be to compare the overall number of 311 requests in 2018
 and 2019, since the new system was deployed near the end of 2018.
 
-
 ![request_count](images/request_number_viz.png)
+Source: [Chicago Data Portal](https://data.cityofchicago.org/Service-Requests/311-Service-Requests/v6vf-nfxy)
  
-The number of 311 requests in Chicago clearly increased in 2019 compared to 2018! Of course, this does not *prove* that the new 311 app is successful. However, it does suggest a compelling story that the new 311 app at least improved the accessibility of the 311 service. It was also interesting to find that people are less likely to file service requests during weekends and winter season.
+The number of 311 requests in Chicago clearly increased in 2019 compared to 2018! Of course, this does not *prove* that the new 311 app is successful. However, it does suggest a compelling story that the new 311 app at least improved the accessibility of the 311 service. It is also interesting to find that people are less likely to file service requests during weekends and winter season.
 
 __*note*__: This chart only shows the data from July to December. This is *not* some malicious data manipulation but simply due to how the original dataset was structured. For some unspecified reason, the dataset starts from July 2018. For direct comparison between the two years, I decided to only show the data from July to December for 2019 as well.
+
+![days_taken](images/days_taken_viz.png)
+Source: [Chicago Data Portal](https://data.cityofchicago.org/Service-Requests/311-Service-Requests/v6vf-nfxy)
+
+The above chart shows the percentage of 311 request status for 2018 and 2019. For both years, Chicago 311 service is excellent with completing their requests, completing over 90% of the requests. There seems to be higher percentage of *open* service requests in 2019. Although the exact reason behind this is unclear from this chart, we can speculate that this is probably because some requests that were made near the end of the year are still open. However, it is very encouraging to see that the average number of days taken to complete a request in 2019 dropped significantly from that of 2018. On average, it takes around __6 days__ to complete a request. Impressive, right?
+
+__But wait!!!__
+
+![by_dept](images/dept_viz.png)
+Source: [Chicago Data Portal](https://data.cityofchicago.org/Service-Requests/311-Service-Requests/v6vf-nfxy)
+
+The above chart shows the number of requests by owner department. We see the
+biggest increase in __311 City Services__, which deals with 311 information only
+calls. In fact, there was an increase of 350,000 requests for 311 information
+only calls in just over a year! This boost isn't a bad thing because this enormous
+increase again supports the idea that the new 311 app is a lot more accessible to
+the people. 
+
+However, we do have to go back to the previous chart and think again in light of
+this new piece of information. What if the nice improvement in the average number of days
+taken to complete a request is thanks to the increase in the number of these phone calls.
+It only makes sense that these phone calls wouldn't take that long to complete.
+Let's explore this possibility!
+
+![days_taken2](images/days_taken2_viz.png)
+Source: [Chicago Data Portal](https://data.cityofchicago.org/Service-Requests/311-Service-Requests/v6vf-nfxy)
+
+Although the percentage of open requests and the average number of days to
+complete a request in 2019 suffered a little, the overall trend remains unchanged.
+The average number of days taken to complete a request still looks strong for 2019,
+and the overwhelming majority of the 311 requests made in both 2018 and 2019 were
+completed!
+
