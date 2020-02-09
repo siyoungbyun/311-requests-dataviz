@@ -98,6 +98,7 @@ like the 311 service is relaying those requests to Chicago Fire Department, we h
 remember that this service is for non-emergency queries (and also it takes 6 - 
 10 days on average to complete a request). So the lesson here is that unless it's a fire
 that can wait a week to be put out, don't use the 311 service to report a fire.
+
 While I was researching, I learned that Chicago Fire Department uses a radio term *3-11
 Alarm Response* (Source: [Chicago Fire Wire](http://www.chicagofirewire.com/chicago-fire-resources/chicago-fire-department-radio-terms-lingo/)). 
 This has nothing to do with the 311 service, so don't let them fool you.
