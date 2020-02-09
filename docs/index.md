@@ -48,6 +48,13 @@ This dataset from Chicago Data Portal includes the final City operating budget a
 
 ## *Comparing the Number of 311 Requests in 2018 and 2019*
 
+One simple way of visualizing the trend of 311 requests *before* and *after* the inception of
+the new 311 app would be to compare the overall number of 311 requests in 2018
+and 2019, since the new system was deployed near the end of 2018.
+
+
 ![request_count](images/request_number_viz.png)
  
+The number of 311 requests in Chicago clearly increased in 2019 compared to 2018! Of course, this does not *prove* that the new 311 app is successful. However, it does suggest a compelling story that the new 311 app at least improved the accessibility of the 311 service. It was also interesting to find that people are less likely to file service requests during weekends and winter season.
 
+__*note*__: This chart only shows the data from July to December. This is *not* some malicious data manipulation but simply due to how the original dataset was structured. For some unspecified reason, the dataset starts from July 2018. For direct comparison between the two years, I decided to only show the data from July to December for 2019 as well.
